@@ -67,39 +67,5 @@ public class RestfulApi {
 		return builder.build().toString();
 	}
 
-	//
-	// public String insert(HttpServletRequest request, Model model,@RequestBody
-	// String data) {
-	// logger.info("用户注册controller");
-	// String userName = request.getParameter("userName");
-	// String password = request.getParameter("password");
-	// String name = request.getParameter("name");
-	// String flag = null;
-	// EclipseMavenTest eclipseMavenTest = new EclipseMavenTest();
-	// eclipseMavenTest.setName(name);
-	// eclipseMavenTest.setPassword(password);
-	// eclipseMavenTest.setUsername(userName);
-	//
-	// if (StringUtils.isEmpty(userName)) {
-	// flag = "用户名为空！";
-	// model.addAttribute("insertFlag", flag);
-	// return "login";
-	// }
-	// if (StringUtils.isEmpty(password)) {
-	// flag = "密码为空！";
-	// model.addAttribute("insertFlag", flag);
-	// return "login";
-	// }
-	//
-	// int insertFlag = eclipseMavenTestService.insert(eclipseMavenTest);
-	//
-	// if (insertFlag == 1) {
-	// flag = "注册成功！";
-	// model.addAttribute("insertFlag", flag);
-	// } else {
-	// flag = "注册失败！";
-	// model.addAttribute("insertFlag", flag);
-	// }
-	// return "login";
-	// }
+	
 }
