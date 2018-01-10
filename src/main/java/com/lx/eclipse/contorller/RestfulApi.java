@@ -66,8 +66,4 @@ public class RestfulApi {
 		builder.code("200");
 		return builder.build().toString();
 	}
-	//mergetest
-	//pulltest
-	//localpull
-	
 }
