@@ -5,7 +5,7 @@
 <%@ page isELIgnored="false" %>
 <html>
 <head>
-    <title>接入渠道</title>
+ 
 </head>
 <body>
 	hello
