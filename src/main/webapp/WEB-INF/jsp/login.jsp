@@ -4,9 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ page isELIgnored="false" %>
 <html>
-<head>
-    <title>接入渠道</title>
-</head>
+
 <body>
 	login.jsp
 </body>
