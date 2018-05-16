@@ -18,12 +18,12 @@ public class PropertyManager {
 	private static final String CONFIG = "config";
 
 	/**
-	 * 将key和value缓存到内存里
+	 * 
 	 */
 	private static final Map<String, String> properties = new LinkedHashMap<String, String>();
 
 	/**
-	 * 读取默认的config.properties文件
+	 * 
 	 * 
 	 * @param key
 	 * @return value
@@ -33,10 +33,10 @@ public class PropertyManager {
 	}
 
 	/**
-	 * 读取指定为rb.properties文件
+	 * 
 	 * 
 	 * @param rb
-	 *            property 文件，文件名为 rb.properties
+	 * 
 	 * @param key
 	 * @return value
 	 */
