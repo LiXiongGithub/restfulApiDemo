@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 public class PropertyManager {
 
 	private static Logger log = LoggerFactory.getLogger(PropertyManager.class);
-	private static final String CONFIG = "config";
+	private static final String CONFIG = "123";
 
 	/**
 	 * 
